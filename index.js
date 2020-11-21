@@ -26,6 +26,8 @@ app.use('/api/channels', require('./routes/channels'))
 app.use('/api/speaker', require('./routes/speaker'))
 app.use('/api/picture', require('./routes/uploads'))
 app.use('/api/poster', require('./routes/poster'))
+app.use('/evento', express.static('public'))
+app.use('/login', express.static('public'))
 
 
 
